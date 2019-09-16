@@ -1,0 +1,24 @@
+div.button {
+    display: block;
+    background-color: #4985bb;
+    width: 700px;
+    height: 115px;
+    position: absolute;
+    top: 150px;
+    align-self: center;
+}
+
+a.button {
+    text-align: center;
+    font-size: 50p;
+    
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    display: block;
+    /* box-sizing: border-box; */
+    border: 1px solid #2c5172;
+    /* border-radius:  */
+    box-shadow: 0 5px #2c5172;
+    /* vertical-align: middle; */
+    padding: 20px 0px 30px;
+}
