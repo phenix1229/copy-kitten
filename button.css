@@ -12,7 +12,7 @@ a.button {
     text-align: center;
     font-size: 50px;
     background-color: #4985bb;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
     display: block;
     width: 705px;
