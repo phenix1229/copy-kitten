@@ -7,7 +7,7 @@ div.button {
     align-self: center;
 }
 
-div.button :hover {
+div.button :active {
     color: orange;
     box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
 }
