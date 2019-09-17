@@ -1,24 +1,26 @@
 div.button {
-    display: block;
-    background-color: #4985bb;
-    width: 700px;
-    height: 115px;
+    display: inline-block;
+    width: 705px;
+    height: 100px;
     position: absolute;
     top: 150px;
     align-self: center;
 }
 
 a.button {
+    /* position: relative; */
+    color: white;
     text-align: center;
-    font-size: 50p;
+    font-size: 50px;
+    background-color: #4985bb;
     
     text-transform: uppercase;
-    /* text-decoration: none; */
+    text-decoration: none;
     display: block;
-    /* box-sizing: border-box; */
-    border: 1px solid #2c5172;
-    /* border-radius:  */
-    box-shadow: 0 5px #2c5172;
-    /* vertical-align: middle; */
+    width: 705px;
+    height: 100px;
+    border: 1px solid #4985bb;
+    border-radius: 20px; 
+    box-shadow: 0 10px #2c5172;
     padding: 20px 0px 30px;
 }
