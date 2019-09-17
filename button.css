@@ -8,12 +8,10 @@ div.button {
 }
 
 a.button {
-    /* position: relative; */
     color: white;
     text-align: center;
     font-size: 50px;
     background-color: #4985bb;
-    
     text-transform: uppercase;
     text-decoration: none;
     display: block;
