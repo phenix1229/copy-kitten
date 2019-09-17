@@ -1,7 +1,66 @@
 div > div {
-    display: block;
     width: 100px;
     height: 50px;
-    padding: 5px 0px 5px 0px;
-    
+    display: grid;
+    grid-template-rows: 45px;
+    grid-auto-columns: 30px;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+}
+
+div > div > a {
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    text-align: center; 
+    padding: 10px 0px 0px 0px;
+
+}
+
+a.tl {
+    border-right: 1px solid black;
+}
+
+a.tm {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+a.tr {
+    border-left: 1px solid black;
+}
+
+a.ml {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+a.mm {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+a.mr {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+a.bl {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: none;
+}
+
+a.bm {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: none;
+}
+
+a.br {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: none;
+    border-spacing: 2px;
 }
