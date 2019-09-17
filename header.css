@@ -7,7 +7,7 @@ ul.header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 li.header {
@@ -16,6 +16,7 @@ li.header {
 
 li a {
     position: relative;
+    left: 35vmax;
     text-decoration: none;
     text-underline-position: none;
     display: inline-block;
